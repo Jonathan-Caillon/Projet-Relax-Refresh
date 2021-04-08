@@ -42,7 +42,6 @@ button:hover {
 }
 
 .boite {
-    margin-left: 20px;
     padding: auto;
     max-width: 400px;
     width: 100%;
@@ -51,12 +50,13 @@ button:hover {
 .centrer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 20px;
     margin: auto;
 }
 
 .cadre {
-    background-color: rgba(211, 211, 211, 0.3);
+    background-color: rgba(211, 211, 211, 0.2);
     max-width: 1000px;
     margin: 150px auto;
     border: 1px solid black;
@@ -71,14 +71,10 @@ a {
     color: black;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
     .cadre {
         margin-top: 0;
         margin-bottom: 0;
-    }
-
-    .juge {
-        max-height: 450px;
     }
 
 }
